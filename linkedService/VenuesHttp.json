@@ -1,0 +1,12 @@
+{
+	"name": "VenuesHttp",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/Dibyendu092/Paris_Olympi_Dataset/main/venues.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
