@@ -1,0 +1,12 @@
+{
+	"name": "Torch_RouteHttp",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/Dibyendu092/Paris_Olympi_Dataset/blob/main/torch_route.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
