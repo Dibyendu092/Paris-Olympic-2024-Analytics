@@ -1,0 +1,9 @@
+{
+	"name": "parisolympic2024df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cd71154e-3b89-4bd2-8050-e972c3071c17",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
