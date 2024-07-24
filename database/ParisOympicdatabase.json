@@ -1,0 +1,25 @@
+{
+	"name": "ParisOympicdatabase",
+	"properties": {
+		"Name": "ParisOympicdatabase",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://parisolympicdata@parisolympic2024storage.dfs.core.windows.net/ParisOympicdatabase",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "parisolympic-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 2,
+		"ObjectId": "dd40789d-338e-40cf-8a7d-02aee72a9143"
+	},
+	"type": "DATABASE"
+}
